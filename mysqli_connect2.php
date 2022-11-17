@@ -1,5 +1,5 @@
 <?php
-
+  // This file serves as a config file for TODO APP
   // This file contains information about database connection
   // This file also connects to MySQL and chooses database
 
@@ -7,7 +7,7 @@
   define('DB_USER', 'despara');
   define('DB_PASSWORD', 'enigma11');
   define('DB_HOST', 'localhost');
-  define('DB_NAME', 'sitename');
+  define('DB_NAME', 'personalsite');
 
   // Connecting to database
 

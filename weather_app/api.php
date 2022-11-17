@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Weather API';
-include 'includes/header.html';
+include '../includes/header.html';
 ?>
 
 <h1>This is an API page</h1>
@@ -32,5 +32,5 @@ if ($method == 'POST') {
 
 
 <?php
-include 'includes/footer.html';
+include '../includes/footer.html';
 ?>

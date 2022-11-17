@@ -1,12 +1,7 @@
 <?php # Script 3.7 - index.php #2
 
-include 'mysqli_connect.php';
-$r = mysqli_query($dbc, "select first_name from users where user_id = 2");
-if (!$r) {
-  echo mysqli_error($dbc);
-}
+include 'mysqli_connect2.php';
 
-print_r($r);
 mysqli_close($dbc);
 
 // This function outputs theoretical HTML
